@@ -4,7 +4,7 @@ PDF viewer component for Vue 2 and Vue 3
 
 Fork desde [pdf-viewer-vue](https://github.com/DingRui12138/vue-pdf-viewer)
 
-[![npm](https://img.shields.io/npm/v/pdf-viewer-vue)](https://npmjs.com/package/pdf-viewer-vue) [![npm](https://img.shields.io/npm/dw/pdf-viewer-vue)](https://npmjs.com/package/pdf-viewer-vue) [![Github Repo stars](https://img.shields.io/github/stars/DingRui12138/vue-pdf-viewer)](https://github.com/DingRui12138/vue-pdf-viewer) [![npm](https://img.shields.io/npm/l/pdf-viewer-vue)](https://github.com/DingRui12138/vue-pdf-viewer/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@consorcioabierto/pdf-viewer-vue)](https://npmjs.com/package/@consorcioabierto/pdf-viewer-vue) [![npm](https://img.shields.io/npm/dw/@consorcioabierto/pdf-viewer-vue)](https://npmjs.com/package/@consorcioabierto/pdf-viewer-vue) [![Github Repo stars](https://img.shields.io/github/stars/AntuV/vue-pdf-viewer)](https://github.com/AntuV/vue-pdf-viewer) [![npm](https://img.shields.io/npm/l/pdf-viewer-vue)](https://github.com/AntuV/vue-pdf-viewer/blob/master/LICENSE)
 
 ## Compatibility
 
