@@ -1,5 +1,5 @@
 {
-  "name": "pdf-viewer-vue",
+  "name": "@consorcioabierto/pdf-viewer-vue",
   "version": "0.2.8",
   "description": "PDF viewer component for Vue 2 and Vue 3",
   "keywords": [
@@ -15,8 +15,8 @@
     "types/*"
   ],
   "license": "MIT",
-  "author": "Wayne (371377785@qq.com)",
-  "repository": "https://github.com/DingRui12138/vue-pdf-viewer",
+  "author": "ConsorcioAbierto",
+  "repository": "https://github.com/AntuV/vue-pdf-viewer",
   "scripts": {
     "test": "webpack -v",
     "build": "webpack build --progress",

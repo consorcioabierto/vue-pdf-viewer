@@ -209,8 +209,8 @@ export default {
     this.$refs.iframe.appendStyle(this.$options.rotateWrapperStyle)
     // TODO: element resize replace window resize with Observe
     this.handleResize = throttle(() => {
-      this.viewportHeight = this.$refs.container.clientHeight
-      this.viewportWidth = this.$refs.viewerScroller.clientWidth
+      this.viewportHeight = this.$refs.container ? this.$refs.container.clientHeight : this.viewportHeight;
+      this.viewportWidth = this.$refs.viewerScroller ? this.$refs.viewerScroller.clientWidth : this.viewportWidth;
     }, 100)
 
     window.addEventListener('resize', this.handleResize)
