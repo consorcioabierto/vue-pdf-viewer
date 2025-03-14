@@ -174,7 +174,7 @@ export default {
       async handler() {
         await this.$nextTick()
 
-        this.viewerContentHeight = this.$refs.viewerContent.clientHeight
+        this.viewerContentHeight = this.$refs.viewerContent ? this.$refs.viewerContent.clientHeight : this.viewerContentHeight
       },
     },
     page(n, o) {
@@ -358,7 +358,7 @@ export default {
         }
 
         await this.$nextTick()
-        this.viewerContentHeight = this.$refs.viewerContent.clientHeight
+        this.viewerContentHeight = this.$refs.viewerContent ? this.$refs.viewerContent.clientHeight : this.viewerContentHeight
       } catch (e) {
         if (e instanceof Error) {
           console.error('rendering failed:', e)
