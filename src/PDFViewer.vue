@@ -211,8 +211,10 @@ export default {
       this.isLoading = isLoading
     },
     handlePasswordRequest({ callback, retry }) {
-      // TODO: slot dialog ?
-      callback(prompt(retry ? 'Enter password again' : 'Enter password'))
+      this.$emit('password-requested', {
+        callback,
+        retry,
+      })
     },
     handleLoadingFailed(e) {
       this.$emit('loading-failed', e)

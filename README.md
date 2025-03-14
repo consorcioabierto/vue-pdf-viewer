@@ -87,13 +87,14 @@ export default {
 
 ### Events
 
-| Name             | Value                                 | Description                     |
-| ---------------- | ------------------------------------- | ------------------------------- |
-| download         | `{source: string; filename: string;}` | pdf file base info              |
-| loaded           | `{total: number}`                     | document load completed         |
-| loading-failed   | `Error`                               | failed to load document         |
-| rendered         | -                                     | finished rendering the document |
-| rendering-failed | `Error`                               | failed to render document       |
+| Name               | Value                                                    | Description                                                    |
+| ------------------ | -------------------------------------------------------- | -------------------------------------------------------------- |
+| download           | `{source: string; filename: string;}`                    | pdf file base info                                             |
+| loaded             | `{total: number}`                                        | document load completed                                        |
+| loading-failed     | `Error`                                                  | failed to load document                                        |
+| password-requested | `{callback: (password: string) => void, retry: boolean}` | password requested to open file, call `callback` with password |
+| rendered           | -                                                        | finished rendering the document                                |
+| rendering-failed   | `Error`                                                  | failed to render document                                      |
 
 ## Examples
 
